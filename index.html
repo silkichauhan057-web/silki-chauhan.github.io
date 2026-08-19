@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silki | Data Analytics Portfolio</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+    <nav class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+        Silki<span class="text-cyan-400">.</span>
+      </span>
+      <div class="space-x-6 text-sm text-slate-300">
+        <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
+    <div class="space-y-4 max-w-xl">
+      <div class="inline-block px-3 py-1 rounded-full bg-cyan-950/70 border border-cyan-500/40 text-cyan-400 text-xs font-semibold">
+        Data Analytics & Problem Solving
+      </div>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+        Transforming <span class="text-cyan-400">Data</span> into Meaningful Business Insights.
+      </h1>
+      <p class="text-slate-400 text-base">
+        Passionate about extracting actionable insights using SQL, Power BI, and Python. Experienced in data modeling, interactive dashboards, and database systems.
+      </p>
+      <div class="pt-2 flex flex-wrap gap-4 justify-center md:justify-start">
+        <a href="#projects" class="px-5 py-2.5 rounded-lg bg-cyan-500 text-slate-950 font-semibold text-sm hover:bg-cyan-400 transition">
+          View Projects
+        </a>
+        <a href="https://github.com/silkichauhan057-web" target="_blank" class="px-5 py-2.5 rounded-lg border border-slate-700 bg-slate-900 text-slate-300 text-sm hover:bg-slate-800 transition flex items-center gap-2">
+          <i data-lucide="github" class="w-4 h-4"></i> GitHub Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-800">
+    <h2 class="text-2xl font-bold text-white mb-6">Technical Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-5 bg-slate-900 rounded-xl border border-slate-800">
+        <h3 class="text-cyan-400 font-semibold mb-2">BI & Dashboards</h3>
+        <p class="text-xs text-slate-400 mb-3">Interactive data visualization and business storytelling.</p>
+        <div class="flex flex-wrap gap-1.5 text-xs text-slate-300">
+          <span class="bg-slate-800 px-2 py-1 rounded">Power BI</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">Excel / Pivot</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">DAX</span>
+        </div>
+      </div>
+
+      <div class="p-5 bg-slate-900 rounded-xl border border-slate-800">
+        <h3 class="text-cyan-400 font-semibold mb-2">Databases & SQL</h3>
+        <p class="text-xs text-slate-400 mb-3">Querying, schema design, and data processing.</p>
+        <div class="flex flex-wrap gap-1.5 text-xs text-slate-300">
+          <span class="bg-slate-800 px-2 py-1 rounded">MySQL</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">Complex Queries</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">Relational Modeling</span>
+        </div>
+      </div>
+
+      <div class="p-5 bg-slate-900 rounded-xl border border-slate-800">
+        <h3 class="text-cyan-400 font-semibold mb-2">Programming & Systems</h3>
+        <p class="text-xs text-slate-400 mb-3">Object-oriented programming and application connectivity.</p>
+        <div class="flex flex-wrap gap-1.5 text-xs text-slate-300">
+          <span class="bg-slate-800 px-2 py-1 rounded">Java</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">JDBC</span>
+          <span class="bg-slate-800 px-2 py-1 rounded">OOPs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-800">
+    <h2 class="text-2xl font-bold text-white mb-6">Featured Projects</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Project 1 -->
+      <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl flex flex-col justify-between hover:border-cyan-500/50 transition">
+        <div>
+          <span class="text-xs font-semibold px-2 py-1 rounded bg-cyan-950 text-cyan-400 border border-cyan-800">Power BI & Excel</span>
+          <h3 class="text-xl font-bold text-white mt-3">Customer Behavior & Purchase Analytics</h3>
+          <p class="text-sm text-slate-400 mt-2">
+            Interactive dashboard analyzing customer purchasing trends, revenue drivers, and demographic segmentation.
+          </p>
+        </div>
+        <div class="mt-6 flex items-center justify-between">
+          <div class="flex gap-2 text-xs text-slate-400 font-mono">
+            <span>#DAX</span>
+            <span>#EDA</span>
+          </div>
+          <a href="https://github.com/silkichauhan057-web/Customer-Behavior-Purchase-Analytics" target="_blank" class="text-xs text-cyan-400 hover:underline flex items-center gap-1">
+            View on GitHub <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="p-6 bg-slate-900 border border-slate-800 rounded-xl flex flex-col justify-between hover:border-cyan-500/50 transition">
+        <div>
+          <span class="text-xs font-semibold px-2 py-1 rounded bg-blue-950 text-blue-400 border border-blue-800">Java & SQL Database</span>
+          <h3 class="text-xl font-bold text-white mt-3">Hospital Management System</h3>
+          <p class="text-sm text-slate-400 mt-2">
+            Database-backed management software using JDBC and MySQL for patient records, doctor scheduling, and queries.
+          </p>
+        </div>
+        <div class="mt-6 flex items-center justify-between">
+          <div class="flex gap-2 text-xs text-slate-400 font-mono">
+            <span>#Java</span>
+            <span>#MySQL</span>
+          </div>
+          <a href="https://github.com/silkichauhan057-web/Hospital_Management_System" target="_blank" class="text-xs text-cyan-400 hover:underline flex items-center gap-1">
+            View on GitHub <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="border-t border-slate-800 py-12 text-center text-slate-400 text-sm">
+    <p class="text-white font-semibold text-lg mb-2">Let's Connect</p>
+    <p class="text-xs mb-4">Open for Data Analytics roles & collaborations.</p>
+    <div class="flex justify-center gap-4">
+      <a href="https://github.com/silkichauhan057-web" target="_blank" class="p-2.5 rounded-full bg-slate-900 hover:text-cyan-400 border border-slate-800 transition">
+        <i data-lucide="github" class="w-4 h-4"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="p-2.5 rounded-full bg-slate-900 hover:text-cyan-400 border border-slate-800 transition">
+        <i data-lucide="linkedin" class="w-4 h-4"></i>
+      </a>
+    </div>
+    <p class="text-[11px] text-slate-600 mt-8">Portfolio &copy; 2026</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
